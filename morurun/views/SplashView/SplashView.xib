@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="morurun" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="UqJ-TS-k3n" id="rHU-6f-XSy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="UqJ-TS-k3n">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wOQ-2x-zPj">
+                    <rect key="frame" x="88" y="199" width="200" height="268"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="JJe-kj-rv0">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="Tbd-RG-f7I"/>
+                                <constraint firstAttribute="height" constant="200" id="hP5-EJ-K9d"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMY-cD-teT">
+                            <rect key="frame" x="10" y="208" width="180" height="60"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="DMY-cD-teT" firstAttribute="centerX" secondItem="wOQ-2x-zPj" secondAttribute="centerX" id="8bX-fn-zjc"/>
+                        <constraint firstAttribute="bottom" secondItem="DMY-cD-teT" secondAttribute="bottom" id="arh-HY-s0w"/>
+                        <constraint firstItem="JJe-kj-rv0" firstAttribute="centerX" secondItem="wOQ-2x-zPj" secondAttribute="centerX" id="byg-4L-nrT"/>
+                        <constraint firstAttribute="height" constant="268" id="iNo-g8-ODK"/>
+                        <constraint firstAttribute="width" constant="200" id="s5t-XG-hy4"/>
+                        <constraint firstItem="JJe-kj-rv0" firstAttribute="top" secondItem="wOQ-2x-zPj" secondAttribute="top" id="wvv-R3-F3T"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.2470588235" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wOQ-2x-zPj" firstAttribute="centerX" secondItem="UqJ-TS-k3n" secondAttribute="centerX" id="CIL-wm-SFY"/>
+                <constraint firstItem="wOQ-2x-zPj" firstAttribute="centerY" secondItem="UqJ-TS-k3n" secondAttribute="centerY" id="bqh-fN-yhU"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_splash.png" width="270" height="270"/>
+        <image name="logo.png" width="180" height="60"/>
+    </resources>
+</document>

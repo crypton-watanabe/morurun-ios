@@ -1,0 +1,11 @@
+.DS_Store
+build
+DerivedData
+Pods
+Podfile.lock
+*.xcworkspace
+xcuserdata
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+R.generated.swift
